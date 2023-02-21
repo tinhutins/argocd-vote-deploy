@@ -11,7 +11,7 @@ spec:
     server: https://kubernetes.default.svc 
   project: default
   source:
-    path: k8s-apps-deployment/python-test
+    path: k8s-apps-deployment/k8s-spec-vote
     repoURL: https://github.com/tinhutins/argocd-vote-deploy
     targetRevision: HEAD
   syncPolicy:
