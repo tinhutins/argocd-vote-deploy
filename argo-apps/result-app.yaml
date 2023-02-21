@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: vote-app
+  name: result-app
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
@@ -11,7 +11,7 @@ spec:
     server: https://kubernetes.default.svc 
   project: default
   source:
-    path: k8s-apps-deployment/k8s-spec-vote
+    path: k8s-apps-deployment/k8s-spec-result
     repoURL: https://github.com/tinhutins/argocd-vote-deploy
     targetRevision: HEAD
   syncPolicy:
