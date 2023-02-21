@@ -7,4 +7,4 @@ resources:
 
 images:
 - name: docker.io/hutinskit/result
-  newTag: master
+  newTag: v1.0.1
