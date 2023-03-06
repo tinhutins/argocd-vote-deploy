@@ -6,4 +6,4 @@ resources:
 
 images:
 - name: docker.io/hutinskit/worker
-  newTag: v1.0.1
+  newTag: v1.0.37
