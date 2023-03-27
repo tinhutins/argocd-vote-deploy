@@ -9,4 +9,4 @@ resources:
 
 images:
 - name: docker.io/hutinskit/vote
-  newTag: v1.0.81
+  newTag: v1.0.90
