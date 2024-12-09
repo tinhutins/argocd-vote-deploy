@@ -5,7 +5,6 @@ resources:
 - result-deployment.yaml
 - result-service.yaml
 - result-ingress.yaml
-- hpa.yaml
 
 images:
 - name: docker.io/hutinskit/result
