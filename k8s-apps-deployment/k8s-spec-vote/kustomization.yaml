@@ -5,6 +5,7 @@ resources:
 - vote-namespace.yaml
 - vote-deployment.yaml
 - vote-service.yaml
+- vote-ingress.yaml
 - hpa.yaml
 
 images:
