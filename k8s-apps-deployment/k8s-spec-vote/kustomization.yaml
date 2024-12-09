@@ -11,5 +11,3 @@ resources:
 images:
 - name: docker.io/hutinskit/vote
   newTag: v1.0.156
-- name: k8s-apps-deployment/k8s-spec-vote/docker.io/hutinskit/vote
-  newTag: v1.0.155
