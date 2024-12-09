@@ -8,4 +8,4 @@ resources:
 
 images:
 - name: docker.io/hutinskit/result
-  newTag: v1.0.150
+  newTag: v1.0.153
