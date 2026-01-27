@@ -9,5 +9,7 @@ resources:
 - hpa.yaml
 
 images:
+- name: 783411994983.dkr.ecr.us-east-1.amazonaws.com/vote
+  newTag: v1.0.156
 - name: docker.io/hutinskit/vote
   newTag: v1.0.156
